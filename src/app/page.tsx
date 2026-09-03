@@ -11,11 +11,11 @@ export default function HomePage() {
       textAlign: "center"
     }}>
       <h1 style={{ color: "#ffffff", fontSize: "48px", marginBottom: "16px" }}>
-        🎸 My Favorite Bands
+         My Favorite Bands
       </h1>
       <p style={{ color: "#a1a1aa", fontSize: "18px", maxWidth: "600px", lineHeight: "1.6" }}>
         ยินดีต้อนรับสู่เว็บไซต์รวบรวมข้อมูลวงดนตรีโปรด <br/>
-        กรุณาคลิกเลือกชื่อวงดนตรีที่เมนูด้านบน (Navbar) เพื่อดูข้อมูลสมาชิกและประวัติของวงครับ
+        กรุณาคลิกเลือกชื่อวงดนตรีที่เมนูด้านบนเพื่อดูข้อมูลสมาชิกและประวัติของวงครับ
       </p>
     </div>
   );
