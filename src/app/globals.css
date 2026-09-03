@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #1f2937;
+  background: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+.siteHeader {
+  background: #18181b; /* สีเทาเข้มเกือบดำ สไตล์ Dark Mode */
+  border-bottom: 1px solid #27272a; /* เพิ่มเส้นขอบล่างบางๆ ให้ดูมีมิติ ไม่กลืนไปกับพื้นหลัง */
+}
+
+/* แถม: ปรับ body ให้พื้นหลังเป็นสีเข้มไปเลย เผื่อหน้าอื่นๆ จะได้คุมโทนเดียวกัน */
+body {
+  margin: 0;
+  color: #e5e7eb;
+  background: #121212; 
+  font-family: Arial, sans-serif;
+}
+
+.navbar,
+.page {
+  width: min(100% - 2rem, 70rem);
+  margin-inline: auto;
+}
+
+.navList {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.navLink:hover,
+.navLink:focus-visible {
+  text-decoration: underline;
+}
+
+.page {
+  padding-block: 2rem;
+}
+
+.courseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+}
+
+.courseCard {
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  background: white;
+}
